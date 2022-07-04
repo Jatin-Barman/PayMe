@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import howToUseApp from "./API/howToUse.js";
 
 const Aboutus = () => {
-  const [aboutData, setAboutData] = useState(howToUseApp);
+  const [aboutData, ] = useState(howToUseApp);
   return (
     <>
       <section className="common-section our-services">
